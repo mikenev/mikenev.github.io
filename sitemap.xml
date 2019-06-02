@@ -3,34 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2019-06-02T16:39:53-07:00</lastmod>
+    <loc>https://mikenev.github.io/about/</loc>
+    <lastmod>2019-06-02T16:53:09-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikenev.github.io/</loc>
+    <lastmod>2019-06-02T16:53:09-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/post/</loc>
-    <lastmod>2019-06-02T16:39:53-07:00</lastmod>
+    <loc>https://mikenev.github.io/post/my-third-post/</loc>
+    <lastmod>2019-06-02T16:47:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mikenev.github.io/post/</loc>
+    <lastmod>2019-06-02T16:47:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/post/my-second-post/</loc>
+    <loc>https://mikenev.github.io/post/my-second-post/</loc>
     <lastmod>2019-06-02T16:39:53-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/my-first-post/</loc>
+    <loc>https://mikenev.github.io/post/my-first-post/</loc>
     <lastmod>2019-06-02T16:22:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://mikenev.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://mikenev.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
