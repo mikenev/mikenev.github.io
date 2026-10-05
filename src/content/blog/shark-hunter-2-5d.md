@@ -2,6 +2,7 @@
 title: 'Shark Hunter 2.5D: the sequel, in 3D'
 description: 'A follow-up to Shark Hunter: a low-poly 2.5D underwater game in Unity, built with Claude and playable in your browser.'
 pubDate: 'Oct 04 2026'
+heroImage: '../../assets/shark-hunter-2-5d.jpg'
 ---
 
 After the [first Shark Hunter](/blog/shark-hunter/), I wanted to try something a little more ambitious: the same idea, but in 2.5D. This time you play the shark. Working with another Claude session, I built **Shark Hunter 2.5D**, a low-poly underwater game made in Unity 6 that you can play in your browser.

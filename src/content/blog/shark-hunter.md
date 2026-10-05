@@ -2,6 +2,7 @@
 title: 'Shark Hunter: a tiny game built with Claude'
 description: 'A small retro-style Unity game, made in pair-programming style with Claude and playable in your browser.'
 pubDate: 'Oct 03 2026'
+heroImage: '../../assets/shark-hunter.jpg'
 ---
 
 I recently built a small game called **Shark Hunter**, working together with Claude. It's a retro, NES-flavored vertical slice made in Unity, and you can play it right in your browser.
