@@ -7,7 +7,7 @@ heroImage: '../../assets/shark-hunger.jpg'
 
 After [Shark Hunter](/blog/shark-hunter/) and [Shark Hunter 2.5D](/blog/shark-hunter-2-5d/), I wanted to see how far a single prompt could go. I asked an AI assistant for a 2.5D game along the lines of Hungry Shark: the shark doesn't need to grow, it just has to keep eating to survive. There should be a hunger countdown, the game ends when it hits zero, and there should be a variety of things to eat. The result is **Shark Hunger**, made in Unity 6 and playable in your browser.
 
-**[Play Shark Hunger](https://mikenev.github.io/shark-hunger/)**
+**[Play Shark Hunger](https://mikenev.github.io/shark-hunger/)** · [Source on GitHub](https://github.com/mikenev/shark-hunger)
 
 ## The game
 
