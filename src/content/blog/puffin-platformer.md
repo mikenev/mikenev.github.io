@@ -2,6 +2,8 @@
 title: 'Puffin Platformer: an SNES-style game built by a team of AI bots'
 description: 'A 16-bit style platformer starring a puffin, made in Godot 4 by a group of AI assistants working together, and playable in your browser.'
 pubDate: '2026-10-12T20:25:00-05:00'
+heroImage: '../../assets/puffin-platformer.png'
+heroImageAlt: 'Puffin mid-jump over a water gap with a crab nearby in World 1-1'
 ---
 
 My last few games ([Shark Hunter](/blog/shark-hunter/), [Shark Hunter 2.5D](/blog/shark-hunter-2-5d/) and [Shark Hunger](/blog/shark-hunger/)) were all Unity projects. For this one I wanted to try two new things: a different engine, and a team of AI assistants instead of just one. I asked for an SNES-style Mario-like platformer starring a puffin, built in Godot for the web, where colored fish give the puffin new powers. The result is **Puffin Platformer**.

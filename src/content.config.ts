@@ -47,6 +47,7 @@ const blog = defineCollection({
 			pubDate: centralDate,
 			updatedDate: centralDate.optional(),
 			heroImage: z.optional(image()),
+			heroImageAlt: z.string().optional(),
 		}),
 });
 
