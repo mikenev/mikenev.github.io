@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
+type Props = Omit<CollectionEntry<'blog'>['data'], 'pubDate'> & { pubDate?: Date };
 
 const { title, description, pubDate, updatedDate, heroImage, heroImageAlt } = Astro.props;
 ---
@@ -64,6 +64,7 @@ const { title, description, pubDate, updatedDate, heroImage, heroImageAlt } = As
 				</div>
 				<div class="prose">
 					<div class="title">
+						{pubDate && (
 						<div class="date">
 							<FormattedDate date={pubDate} />
 							{
@@ -74,6 +75,7 @@ const { title, description, pubDate, updatedDate, heroImage, heroImageAlt } = As
 								)
 							}
 						</div>
+						)}
 						<h1>{title}</h1>
 						<hr />
 					</div>
