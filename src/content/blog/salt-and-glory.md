@@ -1,7 +1,7 @@
 ---
 title: 'Salt and Glory, a pirate career in your browser'
 description: 'Sail the 1660s Caribbean, trade between real ports, fight broadsides, board enemy ships for sword duels, dig up buried treasure and build a career from Ensign to Admiral. Built by a team of AI bots and playable in your browser.'
-pubDate: '2026-10-26T16:30-05:00'
+pubDate: '2026-10-26T16:38-05:00'
 heroImage: '../../assets/salt-and-glory.png'
 heroImageAlt: 'Two sailing ships trade broadsides on a blue Caribbean sea, with a painted parchment HUD around the edges'
 ---
