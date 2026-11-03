@@ -1,7 +1,7 @@
 ---
 title: 'Astral Tide, a calm voyage across a starry sea'
 description: 'Sail a small skiff across a sea of stars, one leg at a time, past ice floes, swimming whales and rolling nebula waves. You can''t fail. Built in Unity by a team of AI bots and playable in your browser.'
-pubDate: 'PUBDATE_PLACEHOLDER'
+pubDate: '2026-11-02T18:21-06:00'
 heroImage: '../../assets/astral-tide.png'
 heroImageAlt: 'A small skiff with a pink star sail glides past a pale blue ice floe on the still, silver water of Frost Mirror, with a whale breaking the surface ahead, gold sparkles on the water and a constellation of star fragments in the sky'
 ---
