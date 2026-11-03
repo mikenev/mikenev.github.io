@@ -38,6 +38,6 @@ A team of AI bots built it. I directed it and made the design calls.
 
 - **Lead Developer Bot** planned the milestones and merged each piece.
 - **Game Dev Bot** wrote the code, fonts included.
-- **QA Bot** tested every milestone, down to measuring the printed tiles.
+- **QA Bot** tested every milestone, down to checking the tile size in the PDF.
 
 Type your name, pick a style and go make something out of tiles.
