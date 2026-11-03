@@ -1,7 +1,7 @@
 ---
 title: 'Tessera Sign Studio, a mosaic tile sign maker'
 description: 'Type a word or two, pick a font and a style, and get a true-to-scale, tile-by-tile template for a mosaic sign made of 1-inch tiles or perler beads. Built by a team of AI bots and free to use in your browser.'
-pubDate: 'PUBDATE_PLACEHOLDER'
+pubDate: '2026-11-03T11:57-06:00'
 heroImage: '../../assets/tessera-sign-studio.png'
 heroImageAlt: 'Tessera Sign Studio showing a tile sign that reads HARBOR over PIER FOUR in blue letters on a white field with a navy and white checker border, next to the text, style and font controls, a materials list counting 1,078 tiles and buttons to export a printable PDF, SVG or PNG'
 ---
