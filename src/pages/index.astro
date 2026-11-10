@@ -10,10 +10,10 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 // Live games, newest first. Descriptions are taken from each launch post.
 const gameList = [
 	{
-		name: 'Tessera Sign Studio',
-		post: 'tessera-sign-studio',
-		play: 'https://mikenev.github.io/tessera-sign-studio/',
-		blurb: 'Type a word or two, pick a font and a style, and get a true-to-scale template for a mosaic sign in 1-inch tiles or perler beads.',
+		name: 'Dino Worlds',
+		post: 'dino-worlds',
+		play: 'https://mikenev.github.io/dino-worlds/',
+		blurb: 'Build up a home roost, then send dinosaurs to raid eight islands. Once the raid starts, the fight runs on its own.',
 	},
 	{
 		name: 'Astral Tide',
@@ -65,8 +65,22 @@ const gameList = [
 	},
 ];
 
+// Tools and other non-game projects. Kept out of the Games list.
+const projectList = [
+	{
+		name: 'Tessera Sign Studio',
+		post: 'tessera-sign-studio',
+		url: 'https://mikenev.github.io/tessera-sign-studio/',
+		blurb: 'Type a word or two, pick a font and a style, and get a true-to-scale template for a mosaic sign in 1-inch tiles or perler beads.',
+	},
+];
+
 const games = await Promise.all(
 	gameList.map(async (g) => ({ ...g, entry: await getEntry('blog', g.post) })),
+);
+
+const projects = await Promise.all(
+	projectList.map(async (g) => ({ ...g, entry: await getEntry('blog', g.post) })),
 );
 
 const latestPosts = (await getCollection('blog'))
@@ -97,6 +111,7 @@ const latestPosts = (await getCollection('blog'))
 				margin: 0 0 0.75em;
 			}
 			.games,
+			.projects,
 			.posts {
 				display: grid;
 				grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -164,6 +179,7 @@ const latestPosts = (await getCollection('blog'))
 			}
 			@media (max-width: 720px) {
 				.games,
+				.projects,
 				.posts {
 					grid-template-columns: 1fr;
 					gap: 1.5rem;
@@ -208,6 +224,39 @@ const latestPosts = (await getCollection('blog'))
 								<p class="blurb">{g.blurb}</p>
 								<p class="links">
 									<a class="play" href={g.play}>Play</a>
+									{g.entry && (
+										<>
+											{' · '}
+											<a href={`/blog/${g.entry.id}/`}>Read the post</a>
+										</>
+									)}
+								</p>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+
+			<section>
+				<h2>Projects</h2>
+				<ul class="projects">
+					{
+						projects.map((g) => (
+							<li class="card">
+								<a href={g.url}>
+									{g.entry?.data.heroImage && (
+										<Image
+											width={720}
+											height={405}
+											src={g.entry.data.heroImage}
+											alt={g.entry.data.heroImageAlt ?? `Screenshot of ${g.name}`}
+										/>
+									)}
+								</a>
+								<h3><a href={g.url}>{g.name}</a></h3>
+								<p class="blurb">{g.blurb}</p>
+								<p class="links">
+									<a class="play" href={g.url}>Try it</a>
 									{g.entry && (
 										<>
 											{' · '}
